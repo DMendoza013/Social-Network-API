@@ -1,4 +1,4 @@
-const {user, thought } = require('../models');
+const { user, thought } = require('../models');
 
 module.exports = {
 
@@ -63,4 +63,4 @@ async deleteUser(req, res) {
     }
 },
 
-}
+};
